@@ -1,0 +1,27 @@
+.p3-wrapper {
+  width: 100%;
+  height: calc(100% - 3px);
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  background-color: rgb(235, 230, 230);
+
+  .p3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .social-icons {
+      img {
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+      }
+
+      span {
+        margin: 10px;
+      }
+    }
+  }
+}
