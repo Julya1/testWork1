@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// import {MatTooltipModule} from '@angular/material/tooltip';
+
+
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.modules';
 import { P3Component } from './core/components/p3/p3.component';
@@ -18,6 +21,7 @@ import { P4Component } from './core/components/p4/p4.component';
   ],
   imports: [
     BrowserModule,
+    // MatTooltipModule,
     CoreModule
   ],
   providers: [],

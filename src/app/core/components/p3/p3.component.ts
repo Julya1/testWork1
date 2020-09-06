@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./p3.component.scss']
 })
 export class P3Component {
-  title = 'testWork';
+  public socialData = [
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+  ];
+  public socialData1 = [
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+    {image: '/assets/check2.svg', name: 'H&M', hint: 'Info about the action'},
+  ];
 }
